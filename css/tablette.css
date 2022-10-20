@@ -1,0 +1,135 @@
+/* Filtres */
+
+#filtre_general{
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.filtre_border {
+    margin-right: 0%;
+}
+
+#filtres{
+    flex-wrap: nowrap;
+}
+
+
+
+/* Fin Filtres */
+
+/* Cards */
+
+#general{
+    flex-direction: column-reverse;
+}
+
+#general_hebergement{
+    width: 100%;
+}
+
+.cards_ligne {
+    width: 45%;
+}
+
+.titre_card {
+    width: 100%;
+    margin-left: 8.8%;
+}
+
+.texte_card {
+    margin-left: 8.8%;
+}
+
+.review_star {
+    margin-top: 3%;
+}
+
+#general_populaire {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#populaire_cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards_colonne{
+    width: 95%;
+    margin-left: 2%;
+}
+
+#titre_populaire {
+    margin-left: 2.5%;
+}
+
+#trendings {
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+/* Fin Cards */
+
+
+/* Activité à Marseille*/
+
+.activite_titre {
+    margin-top: 2%;
+}
+
+.img_grande {
+    height: 85%;
+}
+
+.activité_colonne {
+    width: 50%;
+}
+
+.premiere_colonne {
+    width: 80%;
+    height: 45%;
+}
+
+.img_petite {
+    height: 65%;
+}
+
+.deuxieme_colonne {
+    width: 80%;
+    height: 50%;
+}
+
+.img_petite2 {
+    height: 70%;
+}
+
+.troisieme_colonne {
+    width: 80%;
+    height: 45%;
+    margin-bottom: 2%;
+}
+
+.img_petite3 {
+    height: 65%;
+}
+
+.quatrieme_colonne {
+    width: 80%;
+    height: 50%;
+}
+
+.img_petite4 {
+    height: 70%;
+}
+
+
+/* Fin Activité à Marseille*/
+
+/* Footer*/
+
+.liste_footer { 
+    padding: 0%;
+    margin-left:6.2%;
+}
+
+/* Fin Footer*/

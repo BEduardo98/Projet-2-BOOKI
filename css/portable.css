@@ -1,0 +1,266 @@
+header{
+    margin: 0%;
+}
+
+main {
+    margin: 0%;
+}
+
+/* Header */
+
+.header_nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header_nav img{
+    padding-left: 5%;
+}
+
+#hebergement_nav {
+    text-align: center;
+    width: 50%;
+    margin-right: 0%;
+}
+
+#hebergement_nav:hover {
+    color:rgb(2, 159, 250);
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+}
+
+#activites_nav {
+    text-align: center;
+    width: 50%;
+    margin-right: 0%;
+}
+
+#activites_nav:hover {
+    color:rgb(2, 159, 250);
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+}
+
+#liste_nav {
+    padding: 0%;
+    width: 100%;
+}
+
+.header_nav a:hover{
+    border-top: none;
+}
+
+/*Fin Header */
+
+/* Barre de recherche */
+
+.barre_main{
+    margin: 0px 20px ;
+}
+
+#button_submit{
+    display: none;
+}
+
+.fa-magnifying-glass{
+    display: inline-block;
+    color: white;
+    background-color: #0065FC;
+    border: 16px solid #0065FC ;
+    border-radius: 15px;
+}
+
+#marker{
+    background-color: #f2f2f2;
+    border-top: 16px solid #f2f2f2;
+    border-bottom: 16px solid #f2f2f2;
+    border-left: 16px solid #f2f2f2;
+    border-right: 18px solid #f2f2f2;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/*Fin Barre de recherche */
+
+/*Filtre */
+
+#filtre_general {
+    width: 100%;
+}
+
+.filtre_border {
+    margin-bottom: 10px;
+}
+
+.filtre_titre {
+    margin-left:20px;
+}
+
+/*Fin Filtre */
+
+/*Info text */
+
+.info_general {
+    display: flex;
+    align-items: center;
+}
+
+#info_text{
+    margin-left: 3.8%;
+}
+
+.fa-info{
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 20px;
+    width: 30px;
+}
+
+/*Cards */
+
+#general {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+#general_hebergement {
+    background-color: white;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    height: 50%;
+}
+
+#general_cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cards_ligne{
+    box-shadow: 0px 5px 5px 2px #f2f2f2;
+    width: 90%;
+    
+}
+
+#titre_hebergement{
+    margin-left: 5%;
+}
+
+/*Populaire*/
+
+#titre_populaire {
+    margin-left: 6%;
+}
+
+.cards_colonne {
+    width: 90%;
+}
+
+#general_populaire {
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+#afficher_plus {
+    background-color: white;
+    margin-left: 6%;
+}
+/*Fin Cards */
+
+/*Activités à Marseille*/
+
+#premier_titre {
+    margin-left: 6%;
+}
+
+.activite_titre {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+#activité {
+    width: 100%;
+    height: 1200px;
+}
+
+#general_activite {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.les_grandes {
+    width: 90%;
+    height: 35%;
+}
+
+.grande_activité {
+    width: 100%;
+    height: 90%;
+}
+
+.img_grande {
+    height: 75%;
+}
+
+.activité_colonne {
+    width: 90%;
+    height: 65%;
+    justify-content: initial;
+}
+
+.premiere_colonne {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 5%;
+}
+
+.deuxieme_colonne {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 5%; 
+}
+
+.img_petite2 {
+    height: 75%;
+}
+
+.troisieme_colonne {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 5%;
+}
+
+.quatrieme_colonne {
+    width: 100%;
+    height: 45%;
+}
+
+
+
+/*Fin Activités à Marseille */
+
+/*Footer */
+
+#footer_general {
+    flex-direction: column;
+    max-height: max-content;
+}
+
+.liste_footer {
+    padding-left: 0%;
+    margin-left: 6.2%;
+}
+
+/*Fin Footer */
